@@ -38,7 +38,7 @@
         <div class="container">
             <h2><i class="fas fa-align-left"></i> Abstract</h2>
             <p>
-                Despite advances in Visual-Language-Action (VLA) models, they remain limited in highly dynamic game settings—such as 3D open worlds and competitive PvP—where agents must efficiently extract sparse, actionable signals from dense visual input while integrating multi-modal cues to track off-screen high-value targets in real time. To tackle this, we introduce <strong>3A-VLA</strong> (<strong>A</strong>bstraction-<strong>A</strong>ligned <strong>A</strong>ction VLA), a framework that grounds action learning in explicit intention and environment abstractions rather than superficial pattern matching. We introduce dual task-agnostic abstractions: <strong>Intention Abstraction (IA)</strong>, which condenses verbose instructions and reasoning into explicit semantic primitives; <strong>Environment Semantics Abstraction (ESA)</strong>, which structures dense visual streams into a spatial-functional affordance representation to guide grounded action. We further propose an <strong>Abstraction Alignment Reweighting (AAR)</strong> module that adaptively reweights the action imitation loss. It uses a continuous intention-environment alignment signal to emphasize reliable action supervision when abstractions agree and reduce the influence of ambiguous demonstrations when they diverge, thereby learning a policy that balances fine-grained control and high-level reasoning without manual rules. Extensive experiments show that 3A-VLA establishes new state-of-the-art results in both open-world (<strong>Minecraft</strong>) and competitive PvP (<strong>Game for Peace</strong>) settings. It also demonstrates strong zero-shot generalization to high-fidelity games across different domains, including <strong>Valorant</strong>, <strong>CS2</strong>, <strong>GTA V</strong>, <strong>Elden Ring</strong>, and <strong>Mount &amp; Blade</strong>. Code and models will be publicly released at <a href="https://3a-vla.github.io/">https://3a-vla.github.io/</a>.
+                Despite advances in Visual-Language-Action (VLA) models, they remain limited in highly dynamic game settings—such as 3D open worlds and competitive PvP—where agents must efficiently extract sparse, actionable signals from dense visual input while integrating multi-modal cues to track off-screen high-value targets in real time. To tackle this, we introduce <strong>3A-VLA</strong> (<strong>A</strong>bstraction-<strong>A</strong>ligned <strong>A</strong>ction VLA), a framework that grounds action learning in explicit intention and environment abstractions rather than superficial pattern matching. We introduce dual task-agnostic abstractions: <strong>Intention Abstraction (IA)</strong>, which condenses verbose instructions and reasoning into explicit semantic primitives; <strong>Environment Semantics Abstraction (ESA)</strong>, which structures dense visual streams into a spatial-functional affordance representation to guide grounded action. We further propose an <strong>Abstraction Alignment Reweighting (AAR)</strong> module that adaptively reweights the action imitation loss. It uses a continuous intention-environment alignment signal to emphasize reliable action supervision when abstractions agree and reduce the influence of ambiguous demonstrations when they diverge, thereby learning a policy that balances fine-grained control and high-level reasoning without manual rules. Extensive experiments show that 3A-VLA establishes new state-of-the-art results in both open-world (<strong>Minecraft</strong>) and competitive PvP (<strong>Game for Peace</strong>) settings. It also demonstrates strong zero-shot generalization to high-fidelity games across different domains, including <strong>Valorant</strong>, <strong>CS2</strong>, <strong>GTA V</strong>, <strong>Elden Ring</strong>, and <strong>Mount &amp; Blade</strong>.
             </p>
         </div>
     </section>
@@ -79,7 +79,7 @@
                         </video>
                         <div class="video-info">
                             <h4>Combat Engagement</h4>
-                            <p>Detecting adversaries and managing recoil to inflict lethal damage in encounters.</p>
+                            <p>Detecting adversaries, tracking their movement, and compensating for recoil to deliver lethal damage in encounters.</p>
                         </div>
                     </div>
                     <div class="video-item">
@@ -88,7 +88,7 @@
                         </video>
                         <div class="video-info">
                             <h4>Teammate Revival</h4>
-                            <p>Identifying and reviving knocked-down teammates to restore their combat status.</p>
+                            <p>Identifying knocked-down teammates, navigating to their location, and reviving them to restore their combat status.</p>
                         </div>
                     </div>
                     <div class="video-item">
