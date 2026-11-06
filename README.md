@@ -2,10 +2,12 @@
 
 Official project website: https://3a-vla.github.io/
 
+This repository hosts a complete, independent copy of the website. It serves all page assets locally and does not redirect to the author’s personal site. The copy at https://zhouzheyuan.github.io/3a-vla/ is maintained separately.
+
 - Paper: https://arxiv.org/abs/2602.02212
 - Code: https://github.com/zhouzheyuan/3a-vla
-- Model: https://huggingface.co/3a-vla/3A-VLA-Qwen3.5-4B-GameForPeace
-- Dataset: https://huggingface.co/datasets/3a-vla/AceAction-GameForPeace
+- Model: https://huggingface.co/AceAction/3A-VLA_Qwen3.5-4B_GameForPeace
+- Dataset: https://huggingface.co/datasets/AceAction/AceAction-5M_GameForPeace
 
 ## Editing and preview
 
